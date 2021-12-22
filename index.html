@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOOSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Housing</title>
+    <!-- FONT  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- LIGHTBOX MASTER -->
+    <link rel="stylesheet" href="./assets/lsb.css">
+    
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <h2>Hous<span>ing</span></h2>
+      <ul class="header__list" id="mainNav">
+        <li class="header__items">
+          <a href="#home" class="header__link active">Home</a>
+        </li>
+        <li class="header__items">
+          <a href="#about" class="header__link">About</a>
+        </li>
+        <li class="header__items">
+          <a href="#blog" class="header__link">Blog</a>
+        </li>
+        <li class="header__items">
+          <a href="#pfp" class="header__link">Portfolio</a>
+        </li>
+        <li class="header__items">
+          <a href="#agents" class="header__link">Agents</a>
+        </li>
+        <li class="header__items">
+          <a href="#contacts" class="header__link">Contacts</a>
+        </li>
+      </ul>
+    </header>
+    <section class="slider" id="home">
+      <ul class="rslides">
+        <li>
+          <img src="./img/b1.jpg" alt="" />
+          <div class="slider__contentheading">
+            <h2>LOREM IPSUM AMET</h2>
+            <p>Lorem ipsum dolor sit, consectetur adiping elit.</p>
+          </div>
+        </li>
+        <li>
+          <img src="./img/b2.jpg" alt="" />
+          <div class="slider__contentheading">
+            <h2>DOLOR SIT HATANT MORBI</h2>
+            <p>Quis autem vel eum iure reprehenderit quivol.</p>
+          </div>
+        </li>
+        <li>
+          <img src="./img/b3.jpg" alt="" />
+          <div class="slider__contentheading">
+            <h2>QUIS AUTEM VE EUM IURE</h2>
+            <p>Excepteur sint ocecat cupid proident, deserunt.</p>
+          </div>
+        </li>
+      </ul>
+      <div class="reslider__wrapper">
+        <a href="#" class="rslides_nav rslides1_nav prev">Previous</a>
+        <a href="#" class="rslides_nav rslides1_nav next">Next</a>
+      </div>
+      <div class="reslider__wrapper">
+        <a href="#" class="rslides_nav rslides1_nav prev">Previous</a>
+        <a href="#" class="rslides_nav rslides1_nav next">Next</a>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <h2 class="heading__same">About</h2>
+      <div class="about__info">
+        <div class="about__address">
+          <i class="fa fa-home"></i>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="about__address">
+          <i class="fa fa-key"></i>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="about__address">
+          <i class="fa fa-money-bill-alt"></i>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+      <div class="about__main">
+        <div class="about__title">About us</div>
+        <p class="about__desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed
+          odio consequat, tristique elit sed, molestie nulla. Mauris et quam
+          leo. Quisque tincidunt facilisis rutrum. Etiam mattis arcu vitae velit
+          sagittis vehicula. Duis posuere ex in mollis iaculis. Suspendisse
+          tincidunt ut velit id euismod.vulputate turpis porta ex sodales,
+          dignissim hendrerit eros sagittis. Curabitur lacinia dui ut luctus
+          congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+          quis
+        </p>
+      </div>
+    </section>
+    <section class="stats" id="">
+      <h2 class="heading__same">Stats</h2>
+      <div class="stats__wrapper">
+        <div class="stat__list">
+          <p class="counter">3500</p>
+          <p>clients</p>
+        </div>
+        <div class="stat__list">
+          <p class="counter">650</p>
+          <p>Plans</p>
+        </div>
+        <div class="stat__list">
+          <p class="counter">1021</p>
+          <p>projects</p>
+        </div>
+        <div class="stat__list">
+          <p class="counter">1010</p>
+          <p>Likes</p>
+        </div>
+      </div>
+    </section>
+    <section class="blog" id="blog">
+      <h2 class="heading__same">BLog</h2>
+      <div class="blog__wrapper">
+        <figure class="blog__content">
+          <img src="./img/g1.jpg" alt="" />
+          <div class="blog__heading">
+            <h3 data-toggle="modal" data-target="#exampleModalLong">Lorem Ipsum Passage,</h3>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium
+            </p>
+            <a href="./img/img1.jpg" data-lightbox="gallery5">
+            </a>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+              Read more..
+            </button>
+          
+            <!-- Modal Long-->
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Housing</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./img/img2.jpg" alt="">
+                    <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+                  </div
+                  </div>
+              </div>
+            </div>
+            
+          
+            <!-- Modal center-->
+            <div class="modal modal-dialog modal-dialog-centered fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </figure>
+        <figure class="blog__content">
+          <img src="./img/g2.jpg" alt="" />
+          <div class="blog__heading">
+            <h3 data-toggle="modal" data-target="#exampleModalLong">Lorem Ipsum Passage,</h3>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium
+            </p>
+            <a href="./img/img1.jpg" data-lightbox="gallery5">
+            </a>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+              Read more..
+            </button>
+          
+            <!-- Modal Long-->
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Housing</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./img/img2.jpg" alt="">
+                    <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+                  </div
+                </div>
+              </div>
+            </div>
+          
+            <!-- Modal center-->
+            <div class="modal modal-dialog modal-dialog-centered fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </figure>
+        <figure class="blog__content">
+          <img src="./img/g1.jpg" alt="" />
+          <div class="blog__heading">
+            <h3 data-toggle="modal" data-target="#exampleModalLong">Lorem Ipsum Passage,</h3>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium
+            </p>
+            <a href="./img/img1.jpg" data-lightbox="gallery5">
+            </a>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+              Read more..
+            </button>
+          
+            <!-- Modal Long-->
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Housing</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./img/img2.jpg" alt="">
+                    <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+                  </div
+                  </div>
+              </div>
+            </div>
+            
+          
+            <!-- Modal center-->
+            <div class="modal modal-dialog modal-dialog-centered fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+       
+        
+      </div>
+    </section>
+    <section class="getmore">
+      <div class="getmore__image">
+        <img src="./img/video.jpg" alt="" />
+        <a href="#small-dialog1" class="play-icon popup-with-zoom-anim"><span class="fa fa-play-circle" aria-hidden="true"></span>
+        </a>
+        <div id="small-dialog1" class="w3ls_small_dialog wthree_pop mfp-hide">
+          <div class="agileits_modal_body">
+            <iframe src="https://player.vimeo.com/video/106770833"></iframe>
+            <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+          </div>
+        </div>
+      </div>
+      <div class="getmore__content">
+        <h2 class="">Get More..</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut minim veniam, labore et dolore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi esse quam nihil molestiae consequatur, vel illum qui
+          dolorem eum fugiat quo voluptas nulla pariatur.
+        </p>
+       
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+            Read more..
+          </button>
+        
+          <!-- Modal Long-->
+          <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Housing</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./img/img2.jpg" alt="">
+                  <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+                </div
+                </div>
+            </div>
+          </div>
+          
+        
+          <!-- Modal center-->
+          <div class="modal modal-dialog modal-dialog-centered fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </section>
+    <section class="portfolio" id="pfp">
+      <h2 class="heading__same">Portfolio</h2>
+      <div class="pfolio__wrapper">
+        <div class="pfolio__content">
+          <a href="./img/img1.jpg" class="lsb-preview" data-lsb-group="header">
+          <img src="./img/img1.jpg" alt="" />
+          <div class="pfolio__heading">
+            <h2>GALLERY</h2>
+            <p>Lorem ipsum simply dummy</p>
+          </div>
+        </a>
+        
+        
+      </div>
+        <div class="pfolio__content">
+          <a href="./img/img2.jpg" class="lsb-preview" data-lsb-group="header">
+          <img src="./img/img2.jpg" alt="" />
+          <div class="pfolio__heading">
+            <h2>GALLERY</h2>
+            <p>Lorem ipsum simply dummy</p>
+          </div>
+        </a>
+        
+        
+      </div>
+        <div class="pfolio__content">
+          <a href="./img/img3.jpg" class="lsb-preview" data-lsb-group="header">
+          <img src="./img/img3.jpg" alt="" />
+          <div class="pfolio__heading">
+            <h2>GALLERY</h2>
+            <p>Lorem ipsum simply dummy</p>
+          </div>
+        </a>
+        
+        
+      </div>
+        <div class="pfolio__content">
+          <a href="./img/img4.jpg" class="lsb-preview" data-lsb-group="header">
+          <img src="./img/img4.jpg" alt="" />
+          <div class="pfolio__heading">
+            <h2>GALLERY</h2>
+            <p>Lorem ipsum simply dummy</p>
+          </div>
+        </a>
+        
+        
+      </div>
+        <div class="pfolio__content">
+          <a href="./img/img5.jpg" class="lsb-preview" data-lsb-group="header">
+          <img src="./img/img5.jpg" alt="" />
+          <div class="pfolio__heading">
+            <h2>GALLERY</h2>
+            <p>Lorem ipsum simply dummy</p>
+          </div>
+        </a>
+        
+        
+      </div>
+        <div class="pfolio__content">
+          <a href="./img/img6.jpg" class="lsb-preview" data-lsb-group="header">
+          <img src="./img/img6.jpg" alt="" />
+          <div class="pfolio__heading">
+            <h2>GALLERY</h2>
+            <p>Lorem ipsum simply dummy</p>
+          </div>
+        </a>
+        
+        
+      </div>
+       
+         
+       
+      </div>
+    </section>
+    <section class="subscribe">
+      <h2 class="heading__same">Subscribe</h2>
+      <div class="subscribe__content">
+        <p>
+          consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+          pariatur. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi
+        </p>
+        <form action="">
+          <input type="email" placeholder="Email" />
+          <button class="btn">Click</button>
+        </form>
+      </div>
+    </section>
+    <section class="agents" id="agents">
+      <h2 class="heading__same">Our Agents</h2>
+      <div class="agents__wrapper">
+        <figure class="agents__content">
+          <img src="./img/t1.jpg" alt="">
+          <figcaption>
+            <h2>KAT WALLY</h2>
+            <p>Lorem Ipsum</p>
+            <div class="agent__wrapper-icon">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fa fa-rss"></i>
+            </div>
+          </figcaption>
+        </figure>
+        <figure class="agents__content">
+          <img src="./img/t4.jpg" alt="">
+          <figcaption>
+            <h2>KAT WALLY</h2>
+            <p>Lorem Ipsum</p>
+            <div class="agent__wrapper-icon">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fa fa-rss"></i>
+            </div>
+          </figcaption>
+        </figure>
+        <figure class="agents__content">
+          <img src="./img/t3.jpg" alt="">
+          <figcaption>
+            <h2>KAT WALLY</h2>
+            <p>Lorem Ipsum</p>
+            <div class="agent__wrapper-icon">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fa fa-rss"></i>
+            </div>
+          </figcaption>
+        </figure>
+        <figure class="agents__content">
+          <img src="./img/t2.jpg" alt="">
+          <figcaption>
+            <h2>KAT WALLY</h2>
+            <p>Lorem Ipsum</p>
+            <div class="agent__wrapper-icon">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fa fa-rss"></i>
+            </div>
+          </figcaption>
+        </figure>
+
+      </div>
+    </section>
+    <section class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.706224032119!2d109.20018721412865!3d12.268148933243413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317067ed3a052f11%3A0xd464ee0a6e53e8b7!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBOaGEgVHJhbmc!5e0!3m2!1svi!2s!4v1640156019562!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <section class="contact" id="contacts">
+      <h2 class="heading__same">Contact Us</h2>
+      <div class="contact__wrapper">
+        <div class="contact__info">
+          <input type="text" placeholder="Name">
+          <input type="text" placeholder="Last Name">
+          <input type="email" placeholder="Email">
+          <input type="text" placeholder="Phone">
+        </div>
+        <div class="contact__message">
+          <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+          <input type="submit" value="Submit">
+        </div>
+      </div>
+
+    </section>
+    <footer>
+      <div class="footer__content">
+
+        <p> &#169; Housing. All Rights Reserved | Design by <span>W3layouts</span></p>
+        <div class="agent__wrapper-icon">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fa fa-rss"></i>
+          <i class="fab fa-vk"></i>
+        </div>
+      </div>
+    </footer>
+     <!-- Back to top -->
+     <a href="#" class="backToTop cd-top text-replace js-cd-top">
+      <img src="./img/arrowup.png" alt="">
+    </a>
+    <!-- Thư viện hỗ trọ Jquery giúp hỗ trợ các hiệu ứng Animation -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Jquery waypoints -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+    <script src="./js/responsiveslides.min.js"></script>
+    <script>
+      $(function () {
+        $(".rslides").responsiveSlides({
+          nav: true,
+          pagination: true,
+        });
+      });
+    </script>
+    <!-- LIGHTBOX MASTER -->
+<script src="./js/lsb.js"></script>
+<script>
+ // $(window).load(function () {
+        //     $.fn.lightspeedBox();
+        // });
+        $(window).on('load', function() { 
+            $.fn.lightspeedBox();
+  
+        });
+</script>
+
+    <!-- CountUp JS -->
+    <script src="./js/jquery.countup.min.js"></script>
+    <script>
+      $(".counter").countUp();
+    </script>
+    <!-- BST -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      <!-- BACK TO TOP -->
+      <script src="./js/util.js"></script>
+      <script src="./js/main-backtotop.js"></script>
+  </body>
+   <!-- Navigation Bar Js-->
+   <script>
+    var mainNav = document.getElementById("mainNav");
+    var listNav = mainNav.getElementsByTagName("a");
+    for(var i = 0; i < listNav.length; i++) {
+        listNav[i].addEventListener("click", function() {
+          // tìm thẻ đang được gắn class active
+          var current = document.querySelector("#mainNav .active");
+          // xóa class active của thẻ đang được gắn
+          current.className = current.className.replace("active", "");
+          // Thêm class active vào thẻ li được click
+          this.className += " active";
+        })
+    }
+</script>
+<script src="./js/jquery.magnific-popup.min.js"></script>
+<script>
+  $(document).ready(function () {
+  $(".popup-with-zoom-anim").magnificPopup({
+    type: "inline",
+    fixedContentPos: false,
+    fixedBgPos: true,
+    overflowY: "auto",
+    closeBtnInside: true,
+    preloader: false,
+    midClick: true,
+    removalDelay: 300,
+    mainClass: "my-mfp-zoom-in"
+  });
+});
+</script>
+
+</html>
