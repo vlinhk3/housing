@@ -296,6 +296,7 @@ header h2 span {
   text-decoration: none;
 }
 .blog__heading h3 {
+    cursor: pointer;
   font-size: 22.4px;
   color: #00cdce;
   font-weight: 500;
